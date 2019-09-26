@@ -1,0 +1,25 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+.aa-header {
+    background-image: url(../images/home-image.jpg);
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+}
+
+.nav-link {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+}
+
+.down-btn {
+    border: 2px solid white;
+    font-size: 12px;
+    opacity: 1;
+}
