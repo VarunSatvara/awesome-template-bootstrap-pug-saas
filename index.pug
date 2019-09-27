@@ -9,6 +9,7 @@ head
   link(rel="stylesheet" href="css/style.css")
   link(rel="stylesheet" href="css/reset.css")
   link(rel="stylesheet" href="css/dosis.css")
+  link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous")
   body.bg-color
       header.nav-head(class="w-100")
         .aa-header(class="w-100")
@@ -26,20 +27,27 @@ head
                          li.nav-item
                            a.nav-link(href="#" class="text-uppercase text-white font-weight-bold px-3") pricing
                          li.nav-item
-                          a(class="btn btn-outline-neutral rounded-pill text-white font-weight-bold down-btn px-4 py-2 ml-3" href="#download" role="button")   Download Now
+                          a(class="btn btn-outline-neutral rounded-pill text-white font-weight-bold down-btn px-4 py-2 ml-3 text-uppercase" href="#download" role="button")   Download Now
             .container(class="aa-header-content")
-                  .row
+                  .row(class="py-5")
                      .col-md-6.col-sm-12
-                           h1(class="text-white font-weight-bolder") Awesome App
-                           h1(class="text-white font-weight-bolder") App Landing Template
-                           p(class="font-weigth-normal text-white") An awesome landing page template to showcase your app features, screenshots, pricing, user testimonials and download links.
+                           h1(class="text-white font-weight-bolder awesome-h1") Awesome App
+                           h1(class="text-white font-weight-bolder awesome-h1") App Landing Template
+                           p(class="font-weigth-normal text-white awesome-p py-4") An awesome landing page template to showcase your app features, screenshots, pricing, user testimonials and download links.
                            ul(class="list-unstyled")
                              li(class="py-2")
-                                    i(class="far fa-check-circle pr-4" aria-hidden="true")          Amazing Design to Present Your App
+                                    i(class="fas fa-check-circle pr-3 text-white" aria-hidden="true") 
+                                    span(class="font-weight-normal text-white span-p") Amazing Design to Present Your App
                              li(class="py-2")
-                                    i(class="far fa-check-circle pr-4" aria-hidden="true") Fully Responsive and Powered by Bootstrap &amp; PaperKit
+                                    i(class="fas fa-check-circle text-white  pr-3" aria-hidden="true") 
+                                    span(class="font-weight-normal text-white span-p") Fully Responsive and Powered by Bootstrap &amp; PaperKit
                              li(class="py-2")
-                                    i(class="far fa-check-circle pr-4" aria-hidden="true") Very Easy to Customize and Setup
+                                    i(class="fas fa-check-circle  text-white pr-3" aria-hidden="true") 
+                                    span(class="font-weight-normal text-white span-p") Very Easy to Customize and Setup
+                             li(class="py-5")
+                                    a(class="btn btn-outline-neutral rounded-pill text-white font-weight-bold down-btn px-4 py-2 text-uppercase" href="#download" role="button")  start exploring
+                     .col-md-6.col-sm-12.text-right
+                                img.img-fluid(src='images/1.jpg' alt='Image')
 
 
 

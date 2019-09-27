@@ -141,4 +141,20 @@ table {
   font-size: 12px;
   opacity: 1; }
 
+.awesome-h1 {
+  font-size: 50px;
+  line-height: 55px;
+  font-family: "Dosis", Helvetica, Arial, sans-serif; }
+
+.awesome-p {
+  font-size: 15px; }
+
+.span-p {
+  font-size: 14px; }
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .awesome-h1 {
+    font-size: 30px;
+    line-height: 40px; } }
+
 /*# sourceMappingURL=style.css.map */
